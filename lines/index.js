@@ -9,7 +9,7 @@ document.getElementsByTagName('body')[0].appendChild(canv);
 var ctx = document.getElementById('c').getContext('2d');
 
 var config = {
-    rate: 2000,
+    rate: 100,
     updates: 10,
     colors: false
 };
